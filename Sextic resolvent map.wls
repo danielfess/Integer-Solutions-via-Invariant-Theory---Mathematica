@@ -13,11 +13,11 @@ phi5 = x1 x3 + x3 x5 + x5 x4 + x4 x2 + x2 x1 - x1 x5 - x5 x2 - x2 x3 - x3 x4 - x
 phi6 = x2 x4 + x4 x1 + x1 x5 + x5 x3 + x3 x2 - x2 x1 - x1 x3 - x3 x4 - x4 x5 - x5 x2;
 
 p1 = SymmetricPolynomial[1,{phi1,phi2,phi3,phi4,phi5,phi6}];
-p2 = SymmetricReduction[SymmetricPolynomial[2,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}];
+p2 = SymmetricReduction[SymmetricPolynomial[2,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}]
 p3 = SymmetricReduction[SymmetricPolynomial[3,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}];
-p4 = SymmetricReduction[SymmetricPolynomial[4,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}];
+p4 = SymmetricReduction[SymmetricPolynomial[4,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}]
 p5 = SymmetricReduction[SymmetricPolynomial[5,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}];
-p6 = SymmetricReduction[SymmetricPolynomial[6,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}];
+p6 = SymmetricReduction[SymmetricPolynomial[6,{phi1,phi2,phi3,phi4,phi5,phi6}],{x1,x2,x3,x4,x5},{s1,s2,s3,s4,s5}]
 "Note p1,p3 = 0"
 
 "Fixing 5th sym poly because of factor of sqrt(disc)"
